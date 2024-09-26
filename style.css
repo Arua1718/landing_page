@@ -3,7 +3,7 @@ p1 {
     font-size: 24px;
     color: #f9faf8;
 }
-head {
+head, body {
     background-color: #1f2937;
 }
 h1{
@@ -21,5 +21,5 @@ button{
     color: #1f2937;
 }
 footer {
-    background-color: #e5e7eb;
+    background: #e5e7eb;
 }
