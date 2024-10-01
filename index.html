@@ -3,29 +3,79 @@
 <!--Making a header with a logo and a few links towards different projects.-->
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing Page</title>
         <img></img>
         <a></a>
         <a></a>
         <a></a>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
-    <!--More information in the body with an image.-->
+    <!--More information in the header with an image.-->
     <body>
-        <h1>This website is going to be about me.</h1>
-        <p1>Some more information about me and my projects.</p1>
-        <button>Sign up for more information.</button>
-        <img></img>
-    </body>
+        <div class="header">
+            <div class="header-top">
+                <div class="header-logo">My Logo</div>
+                <ul class="secondary">
+                    <li>link one</li>
+                    <li>link two</li>
+                    <li>link three</li>
+                </ul>
+            </div>
+        </div>
+    
     <!--Fun facts about me and why I want to code and learn more.-->
-    <div>
-        <p2>Different information 1</p2>
-        <p2>Different information 2</p2>
-        <p2>Different information 3</p2>
-        <p2>Different information 4</p2>
-    </div>
+            <div class="header-bottom">
+                <div>
+                    <div class="main">This website is awesome</div>
+                    <p class="secondary">Some important information about me</p>
+                    <button>Sign Up</button>
+                </div>
+                <img>
+            </div>
+    <!--Create the random information cards-->
+        <div class="info">
+            <div class="wrapper">
+                <div class="info-header">Random Information</div>
+                <div class="card-container">
+                    <div class="card">
+                        <img>
+                        <p class="secondary">More information</p>
+                    </div>
+                    <div class="card">
+                        <img>
+                        <p class="secondary">More information</p>
+                    </div>
+                    <div class="card"></div>
+                        <img>
+                        <p class="secondary">More information</p>
+                    </div>
+                    <div class="card"></div>
+                        <img>
+                        <p class="secondary">More information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!--Created a footer with a quote inside.-->
-    <footer>
-        <p1 class="quote">A favorite quote of mine.<strong>- Person that made the quote</strong></p1>
-    </footer>
+        <div class="quote">
+            <div class="wrapper">
+                <div class="quote-text">
+                    <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</em>
+                </div>
+                <div class="quoter">-Thor, God of Thunder</div>
+            </div>
+        </div>
+        <!--Making a call to action-->
+        <div class="signup">
+            <div class="wrapper">
+                <div>
+                    <div>Call to action! It's time!</div>
+                    <div class="signup-text">Sign up for our product by clicking that button right over there.</div>
+                </div>
+                <button>Sign up.</button>
+            </div>
+        </div>
+        <div class="footer">Copyright & copy The Odin Project 2021</div>
+    </body>
 </html>
